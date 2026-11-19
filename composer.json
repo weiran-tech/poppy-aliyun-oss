@@ -1,36 +1,37 @@
 {
-    "name" : "poppy/aliyun-oss",
-    "description" : "Poppy Aliyun Oss Extension.",
-    "license" : "MIT",
-    "type" : "poppy",
-    "authors" : [
-        {
-            "name" : "Mark Zhao",
-            "email" : "zhaody901@126.com"
-        }
-    ],
-    "require" : {
-        "php" : ">=7.4",
-        "aliyuncs/oss-sdk-php" : "2.*",
-        "alibabacloud/sts-20150401" : "^1.1",
-        "alibabacloud/darabonba": "^1.0",
-        "poppy/mgr-page": "4.3.*"
-    },
-    "require-dev" : {
-        "guzzlehttp/guzzle": "^6.3|^7.3"
-    },
-    "autoload" : {
-        "psr-4" : {
-            "Poppy\\AliyunOss\\" : "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Poppy\\AliyunOss\\Tests\\" : "tests/"
-        }
-    },
-    "config" : {
-        "preferred-install" : "dist"
-    },
-    "minimum-stability" : "dev"
+  "name": "poppy/aliyun-oss",
+  "description": "Poppy Aliyun Oss Extension.",
+  "license": "MIT",
+  "type": "poppy",
+  "authors": [
+    {
+      "name": "Mark Zhao",
+      "email": "zhaody901@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "aliyuncs/oss-sdk-php": "2.*",
+    "alibabacloud/sts-20150401": "^1.1",
+    "alibabacloud/darabonba": "^1.0",
+    "poppy/mgr-page": "4.3.*"
+  },
+  "require-dev": {
+    "guzzlehttp/guzzle": "^6.3|^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Poppy\\AliyunOss\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Poppy\\AliyunOss\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "version": "4.3.1-rc.1"
 }
